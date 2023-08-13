@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Playfair+Display:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>HBD!!</title>
+  </head>
+  <body>
+    <img id="bulbImg" src="bulb.png" alt="Bulb" />
+    <button id="btn" onclick="run()">Turn on the lights</button>
+
+    <button id="playBtn" onclick="playMusic()" style="display: none" ;>
+      Play Music
+    </button>
+    <audio id="music" src="hbd.mp3"></audio>
+
+    <button id="decorateBtn" style="display: none">Let's decorate</button>
+    <img
+      src="banner.png"
+      alt="Birthday Banner"
+      class="flying pos"
+      id="bannerImage"
+      style="display: none"
+    />
+
+    <button class="cake_btn" id="cake" style="display: none">
+      Here's your b'day cake
+    </button>
+    <div id="contentDiv" style="height: 50px"></div>
+
+    <button class="msg">Here's a msg for you</button>
+    <div class="text">
+      <p>My dear Manish,</p>
+      <p>Your learning zeal in life,</p>
+      <p>your way of living simply,</p>
+      <p>protecting your loved ones,</p>
+      <p>helping others and so much more</p>
+      <p>that everytime I see a new YOU,</p>
+      <p>I grow (not fall) in Love over and over again!</p>
+      <p>Thank you for Being You,</p>
+      <p>and This YOU is worth celebrating</p>
+      <p>not just once a year</p>
+      <p>but every day</p>
+      <p>Happy Birthday my Sunshine! ☀️🫀</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
